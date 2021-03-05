@@ -1,0 +1,48 @@
+.Joke {
+  display: flex;
+  border-bottom: 2px solid #eeeeee;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  padding: 1em;
+}
+
+.Joke-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  margin-right: 1rem;
+}
+
+.Joke-text {
+  display: flex;
+  align-items: center;
+  width: 75%;
+  font-size: 1.2rem;
+}
+
+.Joke-vote {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: 300;
+  border: 2px solid red;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.3);
+}
+
+.fa-arrow-up,
+.fa-arrow-down {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.Joke-emoji {
+  font-size: 2rem;
+  margin-left: auto;
+  border-radius: 50%;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.3);
+}
