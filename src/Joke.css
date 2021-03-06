@@ -38,6 +38,17 @@
 .fa-arrow-down {
   margin: 10px;
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.fa-arrow-up:hover {
+  color: #4ac358;
+  transform: translateY(-2px);
+}
+
+.fa-arrow-down:hover {
+  color: #f44336;
+  transform: translateY(2px);
 }
 
 .Joke-emoji {
@@ -45,4 +56,26 @@
   margin-left: auto;
   border-radius: 50%;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.3);
+}
+
+.Joke-emoji:hover {
+  animation: emoji 1s ease-in-out;
+}
+
+@keyframes emoji {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  20% {
+    transform: rotateZ(-15deg);
+  }
+  50% {
+    transform: rotateZ(0deg);
+  }
+  70% {
+    transform: rotateZ(-15deg);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
 }

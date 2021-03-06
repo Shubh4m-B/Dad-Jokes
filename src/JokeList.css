@@ -35,6 +35,28 @@
   border-radius: 50%;
 }
 
+.JokeList-getmore {
+  height: 3rem;
+  color: white;
+  border: none;
+  outline: none;
+  background: rgb(59, 222, 255);
+  border-radius: 10px;
+  background: linear-gradient(
+    323deg,
+    rgba(59, 222, 255, 1) 50%,
+    rgba(255, 98, 181, 1) 50%
+  );
+  margin: 2rem;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.3);
+  transition: all 0.2s ease-in-out;
+}
+
+.JokeList-getmore:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 38px 56px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.3);
+}
+
 .JokeList-jokes {
   height: 90%;
   background-color: white;
