@@ -29,7 +29,7 @@ export class JokeList extends Component {
             let jokes = [];
 
             while(jokes.length < this.props.numJokes){
-                let jokeRes = await axios.get("http://icanhazdadjoke.com", {headers:{Accept:"application/JSON"}});
+                let jokeRes = await axios.get("https://icanhazdadjoke.com/", {headers:{Accept:"application/JSON"}});
 
                 let newJoke = jokeRes.data.joke;
                 if(!this.seenJokes.has(newJoke)){
